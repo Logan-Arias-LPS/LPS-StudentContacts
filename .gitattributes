@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+dists export-ignore
+release.bat export-ignore
+*.js text
+*.xml text
+*.html text
