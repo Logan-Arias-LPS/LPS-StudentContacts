@@ -1,0 +1,6 @@
+<script>
+        require(['components/shared/utils/psCustomizationUtils'], function(psCU){
+            var psCustomizationUtils4PL4WC = psCU;
+            psCustomizationUtils4PL4WC.addExtensions([{url: '/ws/contacts/contact/{id}', extensions:'U_PERSON_PL4WC'}]);
+        });
+</script>

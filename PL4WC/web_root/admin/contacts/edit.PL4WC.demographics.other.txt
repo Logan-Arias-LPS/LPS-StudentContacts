@@ -1,0 +1,16 @@
+<!-- Custom flag on Person -->
+<div id="person-IRflag-div-active">
+	<input type="checkbox" id="person-IRflag-active" name="person-IRflag-active" 
+		data-ng-init="context.currentContact.initExtensionModel('person.u_person_pl4wc.interpreterrequired')" 
+		data-ng-model="context.currentContact.extensionModel['person.u_person_pl4wc.interpreterrequired']">
+	<label for="person-IRflag-{{$index}}">Interpreter Required</label>
+</div>
+
+<!-- Determines UI field Placement -->
+<script>
+
+	var coreDiv = $j('#language-div');
+	var custDiv = $j('#person-IRflag-div-active');
+	coreDiv.after(custDiv);
+
+</script>
