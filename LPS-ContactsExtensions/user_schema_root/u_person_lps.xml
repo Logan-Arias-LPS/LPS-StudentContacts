@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<psExtension xmlns="http://www.powerschool.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.powerschool.com psextension.xsd">
+    <extensionname>U_PERSON_LPS</extensionname>
+    <extendedTable coreTable="PERSON" dbTableName="U_PERSON_LPS" comment="">
+        <field name="InterpreterRequired" type="Boolean"/>
+        <field name="WrittenLanguage1" type="String" length="40"/>
+        <field name="WrittenLanguage2" type="String" length="40"/>
+        <field name="NotificationLanguage2" type="String" length="40"/>
+        <field name="NotificationLanguage1" type="String" length="40"/>
+    </extendedTable>
+</psExtension>
