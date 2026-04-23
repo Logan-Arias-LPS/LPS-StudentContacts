@@ -2,9 +2,9 @@
 <plugin xmlns="http://plugin.powerschool.pearson.com"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation='http://plugin.powerschool.pearson.com plugin.xsd'
-	name="LPS Student Contacts - Parent Language"
+	name="LPS Student Contacts Extensions"
 	version="0.1"
-	description="Student Contacts customization to store more detail about Languages">
+	description="DB Extension for Customize Student Contacts page">
 	<publisher name="Logan Arias">
 		<contact email="Logan.Arias@lawrence.k12.ma.us" />
 	</publisher>
